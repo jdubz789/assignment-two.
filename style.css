@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+  }
+   
+  .business-title {
+    color: black;
+    font-size: 50px;
+    margin-left:50px;
+    text-shadow: white 3px 2px 8px;
+  }
+
+    @keyframes slideBackground {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    
+  }
+   .content {
+    border:1px white solid;
+    height: 800px;
+    width: 100vw;
+    background-size: 1600px;
+    background-repeat: no-repeat;
+    position: relative;
+    opacity: 95%;
+    animation: slideBackground 5s linear infinite;
+  }
+  
+  .content-text {
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    text-shadow: white 3px 2px 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(255, 255, 255, 0.196); 
+    color: white; 
+    border-radius: 50px; 
+  }
+  
+  header {
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    position: fixed;
+    width: 100vw;
+  }
+  
+  .lessons {
+    background-image: url("https://www.djkit.com/images/products/Maschine%20Studio%20white.jpg");
+  }
+  
+  .mixing-mastering {
+    background-image: url("https://createmusicgroup.com/static/c04f64f421f09ce1e1e7309633d6672a/14b42/DSC08269-2-scaled.jpg");
+  }
+  
+  .daws {
+    background-image: url("https://miro.medium.com/v2/resize:fit:1150/0*X3N-1AJtyOzORjPt.jpg");
+  }
+
+  nav a {
+    color: blue;
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: white 3px 2px 8px;
+  }
+
+  button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    width: 280px;
+    margin: 10px;
+    border-radius: 15px;
+  }
+
+  button:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+  }
+    
+
+  h2 {
+    color: black;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+  }
+  h3 {
+    color: black;
+    font-size: 20px;
+  }
+
+  footer {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100vw;
+    
+  }
+
+  .insta-logo {
+    width: 50px;
+    height: 50px;
+    margin-left:750px;
+  }
+   
