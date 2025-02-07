@@ -6,5 +6,5 @@ After placing my images on the page, i looked into how i could add a sliding eff
 
 After playing around with margins & image sizes and adding opacity behind text, i added a link to my instagram account above the copyright footer, and finally opened an audio folder placed an mp3 file within & copied the file path in the html using an audio tag to add background music with audio controls.
 
-Reflextion
+Reflextion:
 I enjoyed this project, especially learning how to incorporate music in a website and creating animations. if i was to improve on it i would have added a back to top button for a better user experience but still unsure on how to tackle this using java. Any feedback appreciated 
