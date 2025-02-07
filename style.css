@@ -5,6 +5,17 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
   }
+
+  audio {
+    position: fixed;
+    bottom: 20px;
+    right: 0px;
+ }
+
+ audio::-webkit-media-controls-panel {
+    background-color: blue;
+    
+}
    
   .business-title {
     color: black;
